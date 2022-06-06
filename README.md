@@ -14,5 +14,5 @@ weights in Neural Network.
 4. Performed analysis on Class Distribution and computed Class Weights to be later used in
 Neural Network.
 5. Built a Word Embedded and Char Embedded Convolutional Neural Network (CNN) using a combination of Embedding, Conv1d, Max
-Pooling, Flatten, Dropout and Dense layers and implemented necessary callbacks.
+Pooling, Flatten, Dropout and Dense layers and implemented necessary callbacks(EarlyStopping, ModelCheckpoint and Tensorboard).
 6. Achieved an Accuracy Score of 0.81 on Word CNN.
