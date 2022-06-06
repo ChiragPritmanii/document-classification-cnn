@@ -5,12 +5,10 @@
 - Objective: Predict which category does the given article belong to.
 - Performance Metric: Improve the Accuracy Score.
 - Solution:
-1. Preprocessed and Extracted Mail IDs, Subjects, Content,and Labels from all ~19K text
-files. Extensively used Regex and NLTK for text preprocessing tasks.
-2. Transformed Texts to Sequences using Keras and performed analysis on sequence lengths to
-provide appropriate Padding to make all sequences of same length.
-3. Created Word Embedding Matrix of unique words in our data using Glove to be later used as
-weights in Neural Network.
+1. Preprocessed and Extracted Mail IDs, Subjects, Content,and Labels from all ~19K text files. Extensively used Regex and NLTK for text preprocessing tasks.
+2. Transformed Texts to Sequences using Keras and performed analysis on sequence lengths to provide appropriate Padding to make all sequences of same length.
+3. Created Word Embedding Matrix of unique words in our data using Glove to be later used as weights in Neural Network.
+4. Created Char Embedding Matrix of unique chars in our data using Glove to be later used as weights in Neural Network.
 4. Performed analysis on Class Distribution and computed Class Weights to be later used in
 Neural Network.
 5. Built a Word Embedded and Char Embedded Convolutional Neural Network (CNN) using a combination of Embedding, Conv1d, Max
