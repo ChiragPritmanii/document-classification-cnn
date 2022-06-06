@@ -9,8 +9,6 @@
 2. Transformed Texts to Sequences using Keras and performed analysis on sequence lengths to provide appropriate Padding to make all sequences of same length.
 3. Created Word Embedding Matrix of unique words in our data using Glove to be later used as weights in Neural Network.
 4. Created Char Embedding Matrix of unique chars in our data using Glove to be later used as weights in Neural Network.
-4. Performed analysis on Class Distribution and computed Class Weights to be later used in
-Neural Network.
-5. Built a Word Embedded and Char Embedded Convolutional Neural Network (CNN) using a combination of Embedding, Conv1d, Max
-Pooling, Flatten, Dropout and Dense layers and implemented necessary callbacks(EarlyStopping, ModelCheckpoint and Tensorboard).
+4. Performed analysis on Class Distribution and computed Class Weights to be later used in Neural Network.
+5. Built a Word Embedded and Char Embedded Convolutional Neural Network (CNN) using a combination of Embedding, Conv1d, MaxPooling, Flatten, Dropout and Dense layers and implemented necessary callbacks(EarlyStopping, ModelCheckpoint and Tensorboard).
 6. Achieved an Accuracy Score of 0.81 on Word CNN.
