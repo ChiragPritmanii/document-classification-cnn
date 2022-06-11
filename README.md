@@ -2,7 +2,7 @@
 
 - Domain: Education
 - Type of problem: Multi-class Classification (Text)
-- Objective: Predict which category does the given article belong to.
+- Objective: Given an article, predict which category does it belong to.
 - Performance Metric: Improve the Accuracy Score.
 - Solution:
 1. Preprocessed and Extracted Mail IDs, Subjects, Content,and Labels from all ~19K text files. Extensively used Regex and NLTK for text preprocessing tasks.
